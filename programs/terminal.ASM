@@ -1,4 +1,5 @@
-
+org 8500h
+%include "cnos.lib"
 mov ax, 0
 call fillScreen
 	cli
