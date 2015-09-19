@@ -1,0 +1,49 @@
+print		    equ 3
+waitprg 	    equ 6
+drawPixel	    equ 9
+drawHLine	    equ 12
+drawVLine	    equ 15
+drawRect	    equ 18
+drawPic 	    equ 21
+fillScreen	    equ 24
+listFiles	    equ 27
+loadFile	    equ 30
+fileWrite	    equ 33
+fileExists	    equ 36
+fileCreate	    equ 39
+fileDelete	    equ 42
+fileRename	    equ 45
+fileSize	    equ 48
+getMousePos	    equ 51
+setMousePos	    equ 54
+showCursor	    equ 57
+hideCursor	    equ 60
+mouseWait	    equ 63
+checkMouseClick     equ 66
+leftCheckMouse	    equ 69
+middleCheckMouse    equ 72
+rightCheckMouse     equ 75
+waitMouse	    equ 78
+freeMove	    equ 81
+getExtKey	    equ 84
+indicateThink	    equ 87
+stringLength	    equ 90
+stringUpper	    equ 93
+stringLower	    equ 96
+stringCompare	    equ 99
+dialogBox	    equ 102
+waitkey 	    equ 105
+slistToList	    equ 108
+fnamelistToFilelist equ 111
+input		    equ 114
+colors:
+	.blue	   db 1
+	.green	   db 2
+	.red	   db 4
+	.black	   db 0
+	.cyan	   db 3
+	.magenta   db 5
+	.brown	   db 6
+	.lgray	   db 7
+	.gray	   db 8
+	.white	   db 15
